@@ -1,0 +1,18 @@
+﻿<Page x:Class="BookOFLEGENDS.PBooks"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookOFLEGENDS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PBooks">
+
+    <Grid>
+        <Button x:Name="BooksOrderABC" Content="Könyvek rendezése Z-A szerint" HorizontalAlignment="Left" Width="200" VerticalAlignment="Top" Margin="0,5,15,10" Height="30" Click="BooksOrder_Click"/>
+        <Button x:Name="BooksAdd" Content="Könyv hozzáadása" HorizontalAlignment="Left" Width="140" VerticalAlignment="Top" Margin="210,5,15,10" Height="30" Click="BooksAdd_Click"/>
+        <Button x:Name="BooksUpdate" Content="Könyv szerkesztése" HorizontalAlignment="Left" Width="140" VerticalAlignment="Top" Margin="360,5,15,10" Height="30" Click="BooksUpdate_Click"/>
+        <Button x:Name="BooksDelete" Content="Könyv törlése" HorizontalAlignment="Left" Width="120" VerticalAlignment="Top" Margin="510,5,15,10" Height="30" Click="BooksDelete_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Stretch" Margin="0,40,0,0" VerticalAlignment="Stretch" SelectionMode="Single" />
+    </Grid>
+</Page>

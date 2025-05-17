@@ -1,0 +1,18 @@
+﻿<Page x:Class="BookOFLEGENDS.PAccounts"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BookOFLEGENDS"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PAccounts">
+
+    <Grid>
+        <Button x:Name="UsersOrderABC" Content="Felhasználók rendezése Z-A szerint" HorizontalAlignment="Left" Width="200" VerticalAlignment="Top" Margin="0,5,15,10" Height="30" Click="UsersOrder_Click"/>
+        <Button x:Name="UsersAdd" Content="Felhasználó hozzáadása" HorizontalAlignment="Left" Width="140" VerticalAlignment="Top" Margin="210,5,15,10" Height="30" Click="UsersAdd_Click"/>
+        <Button x:Name="UsersUpdate" Content="Felhasználó szerkesztése" HorizontalAlignment="Left" Width="140" VerticalAlignment="Top" Margin="360,5,15,10" Height="30" Click="UsersUpdate_Click"/>
+        <Button x:Name="UsersDelete" Content="Felhasználó törlése" HorizontalAlignment="Left" Width="120" VerticalAlignment="Top" Margin="510,5,15,10" Height="30" Click="UsersDelete_Click"/>
+        <ListBox x:Name="listBox" HorizontalAlignment="Stretch" Margin="0,40,0,0" VerticalAlignment="Stretch" SelectionMode="Single" />
+    </Grid>
+</Page>
